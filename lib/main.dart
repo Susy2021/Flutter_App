@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sqflite/sqflite.dart';
+//import 'package:sqflite/sqflite.dart';
+
+import 'package:flutter_app/registro.dart';
 
 void main() {
   runApp(const MyApp());

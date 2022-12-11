@@ -45,6 +45,11 @@ class DB {
         (i) => Operador(
             id: operadoresMap[i]['id'],
             nombre: operadoresMap[i]['nombre'],
-            edad: operadoresMap[i]['edad']));
+            apellido: operadoresMap[i]['apellido'],
+            DNI: operadoresMap[i]['DNI'],
+            sueldo: operadoresMap[i]['sueldo'],
+            fechaNac: operadoresMap[i]['fechaNac'],
+            edad: operadoresMap[i]['edad']
+            ));
   }
 }
